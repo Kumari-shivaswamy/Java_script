@@ -9,6 +9,9 @@ function generatePassword(length) {
     
     return password;
 }
+// Example usage
+const passwordLength = 12; // Change this for different lengths
+console.log("Your new password: ", generatePassword(passwordLength));
 
 
 
