@@ -11,7 +11,7 @@ function generatePassword(length) {
 }
 // Example usage
 const passwordLength = 12; // Change this for different lengths
-console.log("Your new password: ", generatePassword(passwordLength));
+console.log("Your generated password will be : ", generatePassword(passwordLength));
 
 
 
