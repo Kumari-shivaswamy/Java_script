@@ -14,3 +14,15 @@ addTask("Build a project");
 viewTasks(); 
 removeTask(0);
 viewTasks();
+
+Output Example
+Welcome to the To-Do List Manager!
+Task added: "Learn JavaScript"
+Task added: "Build a project"
+Your To-Do List:
+1. Learn JavaScript
+2. Build a project
+Task removed: "Learn JavaScript"
+Your To-Do List:
+1. Build a project
+
