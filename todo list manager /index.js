@@ -25,6 +25,13 @@ function viewTasks() {
         console.log(`${index + 1}. ${task}`);
     });
 }
+// Example Usage
+console.log("Welcome to the To-Do List Manager!");
+addTask("Learn JavaScript");
+addTask("Build a project");
+viewTasks();
+removeTask(0);
+viewTasks();
 
 
 
