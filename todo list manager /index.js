@@ -15,4 +15,17 @@ function removeTask(index) {
     const removedTask = toDoList.splice(index, 1);
     console.log(`Task removed: "${removedTask[0]}"`);
 }
+function viewTasks() {
+    if (toDoList.length === 0) {
+        console.log("Your to-do list is empty!");
+        return;
+    }
+    console.log("Your To-Do List:");
+    toDoList.forEach((task, index) => {
+        console.log(`${index + 1}. ${task}`);
+    });
+}
+
+
+
 
