@@ -25,7 +25,12 @@ function calculate() {
     const num2 = parseFloat(prompt("Enter the second number: "));
 
     let result;
-   
+    switch (operator) {
+        case "+":
+            result = add(num1, num2);
+            break;
+       
+    }
 
     console.log(`Result: ${result}`);
 }
