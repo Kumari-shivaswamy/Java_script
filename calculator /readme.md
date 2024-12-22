@@ -9,3 +9,12 @@ A JavaScript-based calculator that performs basic arithmetic operations (additio
 
 ## Example Interaction
 
+Welcome to the Simple Calculator! Enter the first number: 5 Enter an operator (+, -, *, /): * Enter the second number: 3 Result: 15
+
+markdown
+Copy code
+
+## How to Run
+1. Save the script as `simpleCalculator.js`.
+2. Run it with Node.js: `node simpleCalculator.js`.
+3. Enter the inputs as prompted.
