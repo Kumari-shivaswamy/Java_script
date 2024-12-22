@@ -19,3 +19,20 @@ function divide(a, b) {
     return a / b;
 }
 
+function calculate() {
+    const num1 = parseFloat(prompt("Enter the first number: "));
+    const operator = prompt("Enter an operator (+, -, *, /): ");
+    const num2 = parseFloat(prompt("Enter the second number: "));
+
+    let result;
+   
+
+    console.log(`Result: ${result}`);
+}
+
+// Run the calculator
+console.log("Welcome to the Simple Calculator!");
+calculate();
+
+
+
