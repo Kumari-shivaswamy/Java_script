@@ -29,6 +29,12 @@ function calculate() {
         case "+":
             result = add(num1, num2);
             break;
+         case "-":
+            result = subtract(num1, num2);
+            break;
+       
+        default:
+            result = "Invalid operator!";
        
     }
 
