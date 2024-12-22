@@ -32,6 +32,12 @@ function calculate() {
          case "-":
             result = subtract(num1, num2);
             break;
+        case "*":
+            result = multiply(num1, num2);
+            break;
+        case "/":
+            result = divide(num1, num2);
+            break;
        
         default:
             result = "Invalid operator!";
