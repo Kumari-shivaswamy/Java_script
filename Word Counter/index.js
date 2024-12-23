@@ -15,7 +15,12 @@ function wordAndCharacterCounter() {
         console.log("You entered an empty string!");
         return;
     }
+    const wordCount = countWords(input);
+    const characterCount = countCharacters(input);
 
+    console.log(`Analysis of your input:`);
+    console.log(`Words: ${wordCount}`);
+    console.log(`Characters (excluding spaces): ${characterCount}`);
     
 }
 
