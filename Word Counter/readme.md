@@ -11,3 +11,6 @@ A simple JavaScript program to count the words and characters (excluding spaces)
    - Total number of characters (excluding spaces).
 
 
+## Example Interaction
+Welcome to the Word and Character Counter! Enter a sentence or paragraph to analyze: The quick brown fox jumps over the lazy dog. Analysis of your input: Words: 9 Characters (excluding spaces): 35
+
