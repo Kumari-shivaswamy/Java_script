@@ -8,7 +8,12 @@ function numberGuessingGame() {
 
     console.log("Welcome to the Number Guessing Game!");
     console.log("Guess a number between 1 and 100.");
+     while (!guessedCorrectly) {
+        const userGuess = parseInt(prompt("Enter your guess: "), 10);
+        attempts++;
 
+       
+    }
    
     
 }
