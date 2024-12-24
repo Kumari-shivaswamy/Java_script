@@ -11,7 +11,16 @@ function numberGuessingGame() {
      while (!guessedCorrectly) {
         const userGuess = parseInt(prompt("Enter your guess: "), 10);
         attempts++;
-
+     if (isNaN(userGuess)) {
+            console.log("Please enter a valid number.");
+        } else if (userGuess < targetNumber) {
+            console.log("Too low! Try again.");
+        } else if (userGuess > targetNumber) {
+            console.log("Too high! Try again.");
+        } else {
+            console.log(`Congratulations! You guessed the number in ${attempts} attempts.`);
+            guessedCorrectly = true;
+        }
        
     }
    
