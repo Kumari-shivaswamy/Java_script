@@ -10,4 +10,6 @@ A simple JavaScript console game where the player guesses a randomly generated n
 
 ## Example Interaction
 
-Welcome to the Number Guessing Game! Guess a number between 1 and 100. Enter your guess: 50 Too high! Try again. Enter your guess: 25 Too low! Try again. Enter your guess: 37 Congratulations! You guessed the number in 3 attempts.
+Welcome to the Number Guessing Game! Guess a number between 1 and 100. 
+Enter your guess: 50 Too high! Try again. Enter your guess: 25 Too low! Try again. 
+Enter your guess: 37 Congratulations! You guessed the number in 3 attempts.
