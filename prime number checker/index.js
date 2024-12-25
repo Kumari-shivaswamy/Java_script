@@ -10,7 +10,16 @@ function isPrime(number) {
 }
 function primeChecker() {
     const number = parseInt(prompt("Enter a number to check if it's prime: "), 10);
+    if (isNaN(number)) {
+        console.log("Please enter a valid number.");
+        return;
+    }
 
+    if (isPrime(number)) {
+        console.log(`${number} is a prime number.`);
+    } else {
+        console.log(`${number} is not a prime number.`);
+    }
     
 }
 
