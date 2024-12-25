@@ -8,6 +8,11 @@ function isPrime(number) {
     }
     return true;
 }
+function primeChecker() {
+    const number = parseInt(prompt("Enter a number to check if it's prime: "), 10);
+
+    
+}
 
 
 // Run the Prime Checker
