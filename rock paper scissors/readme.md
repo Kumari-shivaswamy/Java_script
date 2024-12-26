@@ -9,3 +9,4 @@ A simple JavaScript console game where you play Rock, Paper, Scissors against th
 
 ## Example Interaction
 
+Welcome to Rock, Paper, Scissors! Enter your choice (rock, paper, or scissors): rock You chose: rock Computer chose: scissors You win!
