@@ -23,7 +23,9 @@ function playRockPaperScissors()
     console.log("Welcome to Rock, Paper, Scissors!");
     const playerChoice = prompt("Enter your choice (rock, paper, or scissors): ").toLowerCase();
 
-    
+        if (!["rock", "paper", "scissors"].includes(playerChoice)) {
+        console.log("Invalid choice! Please enter rock, paper, or scissors.");
+        return;
     }
 
     
