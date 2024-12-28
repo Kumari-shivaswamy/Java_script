@@ -29,8 +29,10 @@ function playRockPaperScissors()
     }
   const computerChoice = getComputerChoice();
     
-    
-}
+    console.log(`You chose: ${playerChoice}`);
+    console.log(`Computer chose: ${computerChoice}`);
+
+} 
 
 // Start the game
 playRockPaperScissors();
