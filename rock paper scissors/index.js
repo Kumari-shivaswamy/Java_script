@@ -32,6 +32,8 @@ function playRockPaperScissors()
     console.log(`You chose: ${playerChoice}`);
     console.log(`Computer chose: ${computerChoice}`);
 
+   const result = determineWinner(playerChoice, computerChoice);
+    console.log(result);
 } 
 
 // Start the game
