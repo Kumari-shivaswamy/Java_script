@@ -18,3 +18,16 @@ function determineWinner(playerChoice, computerChoice) {
    
     return "Computer wins!";
 }
+function playRockPaperScissors() 
+{
+    console.log("Welcome to Rock, Paper, Scissors!");
+    const playerChoice = prompt("Enter your choice (rock, paper, or scissors): ").toLowerCase();
+
+    
+    }
+
+    
+}
+
+// Start the game
+playRockPaperScissors();
