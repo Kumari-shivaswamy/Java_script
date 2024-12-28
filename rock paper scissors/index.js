@@ -27,7 +27,8 @@ function playRockPaperScissors()
         console.log("Invalid choice! Please enter rock, paper, or scissors.");
         return;
     }
-
+  const computerChoice = getComputerChoice();
+    
     
 }
 
