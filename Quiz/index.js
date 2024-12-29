@@ -33,6 +33,14 @@ for (let i = 0; i < questions.length; i++) {
     else {
             console.log("Wrong! The correct answer was: " + questions[i].options[questions[i].answer - 1] + "\n");
         }
+     }
+
+    console.log(`Quiz over! Your final score is: ${score}/${questions.length}`);
+}
+
+// Start the Quiz Game
+runQuiz();
+
    
    
     
