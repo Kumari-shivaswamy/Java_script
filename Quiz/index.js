@@ -22,6 +22,10 @@ function runQuiz() {
 
     console.log("Welcome to the Quiz Game!");
     console.log("Type the number corresponding to your answer.\n");
+for (let i = 0; i < questions.length; i++) {
+        console.log(`Question ${i + 1}: ${questions[i].question}`);
+        questions[i].options.forEach((option) => console.log(option));
+        const userAnswer = parseInt(prompt("Your answer: "), 10);
 
-    
+       
 
