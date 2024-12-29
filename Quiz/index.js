@@ -26,6 +26,12 @@ for (let i = 0; i < questions.length; i++) {
         console.log(`Question ${i + 1}: ${questions[i].question}`);
         questions[i].options.forEach((option) => console.log(option));
         const userAnswer = parseInt(prompt("Your answer: "), 10);
+ if (userAnswer === questions[i].answer) {
+            console.log("Correct!\n");
+            score++;
+        } 
 
+   
+    
        
 
