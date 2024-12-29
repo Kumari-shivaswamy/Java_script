@@ -18,6 +18,10 @@ function runQuiz() {
             answer: 3,
         },
     ];
+     let score = 0;
 
-   
+    console.log("Welcome to the Quiz Game!");
+    console.log("Type the number corresponding to your answer.\n");
+
+    
 
