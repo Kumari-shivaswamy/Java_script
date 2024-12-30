@@ -10,3 +10,7 @@ A basic JavaScript quiz game that asks multiple-choice questions and calculates 
 3. At the end of the quiz, the player's score is displayed.
 
 ## Example Interaction
+Welcome to the Quiz Game! Type the number corresponding to your answer.
+
+Question 1: What is the capital of France?
+
