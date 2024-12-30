@@ -14,3 +14,9 @@ Welcome to the Quiz Game! Type the number corresponding to your answer.
 
 Question 1: What is the capital of France?
 
+Paris
+London
+Berlin
+Madrid Your answer: 1 Correct!
+
+
