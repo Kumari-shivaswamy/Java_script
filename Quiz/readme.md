@@ -19,4 +19,10 @@ London
 Berlin
 Madrid Your answer: 1 Correct!
 
+Question 2: Which planet is known as the Red Planet?
 
+Earth
+Mars
+Jupiter
+Saturn Your answer: 3 Wrong! The correct answer was: 2. Mars
+Quiz over! Your final score is: 1/2
