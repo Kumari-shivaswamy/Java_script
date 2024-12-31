@@ -10,3 +10,10 @@ function scrambleWord(word) {
     return wordArray.join("");
 }
 
+function wordScrambleGame() {
+    const words = ["javascript", "programming", "developer", "frontend", "challenge"];
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const selectedWord = words[randomIndex];
+    const scrambledWord = scrambleWord(selectedWord);
+
+}
