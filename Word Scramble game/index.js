@@ -16,4 +16,14 @@ function wordScrambleGame() {
     const selectedWord = words[randomIndex];
     const scrambledWord = scrambleWord(selectedWord);
 
+    console.log("Welcome to the Word Scramble Game!");
+    console.log(`Scrambled Word: ${scrambledWord}`);
+
+   
+}
+
+// Start the Word Scramble Game
+wordScrambleGame();
+
+
 }
