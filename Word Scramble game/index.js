@@ -18,12 +18,14 @@ function wordScrambleGame() {
 
     console.log("Welcome to the Word Scramble Game!");
     console.log(`Scrambled Word: ${scrambledWord}`);
+     const userGuess = prompt("Unscramble the word: ").toLowerCase();
 
+    if (userGuess === selectedWord) {
+        console.log("Congratulations! You guessed it right.");
+    } else {
+        console.log(`Oops! The correct word was: ${selectedWord}`);
+    
    
 }
 
-// Start the Word Scramble Game
-wordScrambleGame();
 
-
-}
