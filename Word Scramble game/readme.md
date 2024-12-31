@@ -10,3 +10,5 @@ A JavaScript program where the player has to guess the correct word from a scram
 
 ## Example Interaction
 
+Welcome to the Word Scramble Game! 
+Scrambled Word: tpjcsivaraa
