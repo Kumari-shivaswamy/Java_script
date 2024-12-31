@@ -27,5 +27,10 @@ function wordScrambleGame() {
     
    
 }
+    // Start the Word Scramble Game
+wordScrambleGame();
+
+
+}
 
 
