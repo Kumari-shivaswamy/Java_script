@@ -12,3 +12,5 @@ A JavaScript program where the player has to guess the correct word from a scram
 
 Welcome to the Word Scramble Game! 
 Scrambled Word: tpjcsivaraa
+Unscramble the word: javascript 
+Congratulations! You guessed it right.
