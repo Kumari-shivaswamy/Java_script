@@ -9,7 +9,10 @@ function diceRollerGame() {
    console.log("1. 6-sided dice");
     console.log("2. 12-sided dice");
     console.log("3. 20-sided dice");
+ const choice = parseInt(prompt("Enter the number of the dice you want to roll (1-3): "), 10);
+    let sides;
 
+    
    
     }
 
