@@ -28,7 +28,7 @@ function diceRollerGame() {
    
     }
     const rollResult = rollDice(sides);
-    
+    console.log(`You rolled a ${sides}-sided dice and got: ${rollResult}`);
 }
 
 
