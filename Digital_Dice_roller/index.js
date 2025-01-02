@@ -12,7 +12,19 @@ function diceRollerGame() {
  const choice = parseInt(prompt("Enter the number of the dice you want to roll (1-3): "), 10);
     let sides;
 
-    
+    switch (choice) {
+        case 1:
+            sides = 6;
+            break;
+        case 2:
+            sides = 12;
+            break;
+        case 3:
+            sides = 20;
+            break;
+        default:
+            console.log("Invalid choice! Please restart the game.");
+            return;
    
     }
 
