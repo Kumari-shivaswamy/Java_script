@@ -27,6 +27,9 @@ function diceRollerGame() {
             return;
    
     }
+    const rollResult = rollDice(sides);
+    
+}
 
 
 // Start the Digital Dice Roller
