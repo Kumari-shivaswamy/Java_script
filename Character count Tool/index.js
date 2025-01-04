@@ -13,7 +13,10 @@ function characterCounter() {
     const wordCount = userInput.trim().split(/\s+/).length;
     const sentenceCount = userInput.split(/[.!?]/).filter(Boolean).length;
 
-   
+    console.log(`Here is your analysis:`);
+    console.log(`- Characters: ${charCount}`);
+    console.log(`- Words: ${wordCount}`);
+    console.log(`- Sentences: ${sentenceCount}`);
     
 }
 
