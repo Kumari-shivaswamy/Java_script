@@ -15,3 +15,11 @@ A JavaScript tool that analyzes user input and provides the following statistics
 3. The analysis is displayed in the console.
 
 ## Example Interaction
+Welcome to the Character Counter Tool! 
+Enter a sentence or paragraph to analyze: This is a test. It works perfectly!
+
+Here is your analysis:
+
+Characters: 37
+Words: 7
+Sentences: 2
