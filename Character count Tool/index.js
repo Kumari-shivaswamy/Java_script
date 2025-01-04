@@ -9,6 +9,10 @@ function characterCounter() {
         return;
     }
 
+    const charCount = userInput.length;
+    const wordCount = userInput.trim().split(/\s+/).length;
+    const sentenceCount = userInput.split(/[.!?]/).filter(Boolean).length;
+
    
     
 }
